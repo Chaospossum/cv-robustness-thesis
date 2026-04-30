@@ -1,0 +1,21 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Trained model checkpoints (regenerate via training notebook)
+*.pt
+
+# Private thesis documents and writing
+*.docx
+thesis_draft.md
+response_to_feedback.md
+thesis_plan.pdf
+writing_notes.pdf
+paper/main.tex
+paper/references.bib
+build_docx.py
+build_notes_docx.py
+build_response_docx.py
+build_summary_docx.py
